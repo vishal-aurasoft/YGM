@@ -6,10 +6,11 @@
     --dark: rgb(40, 39, 46);
 }
 
-.btn {
+/* .btn{
+
     font-weight: 700;
     transition: .5s;
-}
+} */
 
 
 .team-item {
@@ -27,8 +28,7 @@
     height: 100%;
     width: 100%;
     border-radius: 35%;
-    
-    color: #f30a0a;
+        color: #f30a0a;
     padding: 0 10px;
     bottom: -45px;
     transition: .5s;
@@ -51,7 +51,6 @@
 .team-item img {
     border-radius: 35%;
 }
-
 
 .team-item:hover .team-social {
     transition-delay: .3s;
@@ -98,7 +97,6 @@
     font-size: 18px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    cursor: pointer;
     border-radius: 20px;
 }
 
@@ -113,21 +111,6 @@
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0 0 30px;
-}
-
-.form p.message {
-    color: #666666;
-    font-size: 14px;
-    margin-top: 15px;
-}
-
-.form p.message a {
-    color: #2196F3;
-    text-decoration: none;
-}
-
-.form p.message a:hover {
-    text-decoration: underline;
 }
 
 /* country section */
@@ -147,9 +130,7 @@
     border-bottom: #242323 2px solid;
 }
 
-
 .country-section img {
-
     height: 200px !important;
     width: 200px !important;
     margin: 20px;
@@ -165,7 +146,6 @@
 .country-section p {
     color: #242323;
     font-size: 15px;
-    /* width: 450px; */
 }
 
 .country-section .content-body {
@@ -173,7 +153,6 @@
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     padding: 50px;
-    height: 90%;
 }
 
 .country-section .item
@@ -193,23 +172,11 @@
     align-self: center;
 }
 
-
-
 .btn:hover {
     -webkit-box-shadow: 0 8px 6px -6px #555555;
     -moz-box-shadow: 0 8px 6px -6px #555555;
     box-shadow: 0 8px 6px -6px #555555;
 }
-
-.btn.btn-secondary {
-    color: #FFFFFF;
-}
-
-.btn-square {
-    width: 36px;
-    height: 36px;
-}
-
 .btn-sm-square {
     width: 28px;
     height: 28px;
@@ -281,10 +248,6 @@
     }
 }
 
-/* .bg-hero {
-    background: url(../img/hero.jpg) top right no-repeat;
-    background-size: contain;
-} */
 
 @media (max-width: 991.98px) {
     .bg-hero {
@@ -436,10 +399,6 @@
     background-size: contain;
 }
 
-.bg-footer {
-    background: url(../img/footer.jpg) center center no-repeat;
-    background-size: contain;
-}
 
 @media (max-width: 991.98px) {
 
