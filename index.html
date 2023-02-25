@@ -41,19 +41,19 @@
 
 <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm px-5 py-3 py-lg-0">
-        <a href="index.html" class="navbar-brand p-0">
-            <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-paint-roller text-secondary me-3"></i>Painter
-            </h1>
+    <nav class="navbar navbar-expand-lg bg-light navbar-dark shadow-sm px-4 py-3 py-lg-0">
+        <a href="index.html" class="navbar-brand p-0 col-6">
+
+            <h5><img src="images/ygm.png" class="logo">Your Global Mentor</h5>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-0 pe-4 border-end border-5 border-primary">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
+        <div class="collapse navbar-collapse col-6" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0 pe-4 border-5 border-primary">
+                <a href="" class="nav-item nav-link active">Home</a>
+                <a href="" class="nav-item nav-link">About</a>
+                <a href="" class="nav-item nav-link">Service</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
@@ -71,7 +71,7 @@
 
 
     <!-- Hero Start -->
-    <div class="container-fluid  py-5 bg-hero" style="margin-bottom: 90px;">
+    <div class="container-fluid  py-5 bg-hero">
         <div class="container-fluid">
             <div class="row justify-content-start">
 
@@ -310,7 +310,7 @@
                 </div>
                 <div class="col-lg-5">
 
-                    <div class="form" >
+                    <div class="form">
                         <h2>Login</h2>
                         <form action="">
                             <input type="text" placeholder="Username" id="username">
@@ -318,7 +318,7 @@
                             <input type="email" placeholder="email" id="email">
                             <input type="text" placeholder="course" id="course">
                             <select id="country" name="counrty-name" id="county">
-                                <option value="India" >India</option>
+                                <option value="India">India</option>
                                 <option value="">Australia</option>
                                 <option value="">USA</option>
                                 <option value="">Japan</option>
@@ -327,7 +327,7 @@
 
 
 
-                            <button type="submit" onclick="return calldata()" >Log in</button>
+                            <button type="submit" onclick="return calldata()">Log in</button>
                         </form>
                     </div>
 
@@ -345,8 +345,8 @@
                 <div class="owl-carousel owl-theme">
                     <div class="item container">
                         <div class="row">
-                            <img class="col-6" src="images/canada.png">
-                            <h3 class="col-6">-Canada-</h3>
+                            <img class="col-md-6" src="images/canada.png">
+                            <h3 class="col-md-6">-Canada-</h3>
                         </div>
                         <div class="content-body">
                             <h5>Why Study in Canada?
@@ -364,8 +364,8 @@
 
                     <div class="item container">
                         <div class="row">
-                            <img class="col-6" src="images/NZ.png">
-                            <h3 class="col-6">-New Zealand-</h3>
+                            <img class="col-md-6" src="images/NZ.png">
+                            <h3 class="col-md-6">-New Zealand-</h3>
                         </div>
                         <div class="content-body">
                             <h5>Why Study in New Zealand?
@@ -384,8 +384,8 @@
 
                     <div class="item container">
                         <div class="row">
-                            <img class="col-6" src="images/usa.png">
-                            <h3 class="col-6">-USA-</h3>
+                            <img class="col-md-6" src="images/usa.png">
+                            <h3 class="col-md-6">-USA-</h3>
                         </div>
                         <div class="content-body">
                             <h5>Why Study in USA ?
@@ -403,8 +403,8 @@
 
                     <div class="item container">
                         <div class="row">
-                            <img class="col-6" src="images/UK.png">
-                            <h3 class="col-6">-UK-</h3>
+                            <img class="col-md-6" src="images/UK.png">
+                            <h3 class="col-md-6">-UK-</h3>
                         </div>
                         <div class="content-body">
                             <h5>Why Study in UK ?
@@ -412,7 +412,8 @@
                             <hr>
                             <p>
                                 The United Kingdom possesses an authority in providing education and a status of
-                                dominance in the world of learning. Its research and quality driven institutions are unmatched in
+                                dominance in the world of learning. Its research and quality driven institutions are
+                                unmatched in
                                 a variety of subjects including Engineering, Law, Economics and Business.
                             </p>
 
@@ -421,8 +422,8 @@
 
                     <div class="item container">
                         <div class="row">
-                            <img class="col-6" src="images/Australia.png">
-                            <h3 class="col-6">-Australia-</h3>
+                            <img class="col-md-6" src="images/Australia.png">
+                            <h3 class="col-md-6">-Australia-</h3>
                         </div>
                         <div class="content-body">
                             <h5>Why Study in Australia ?
@@ -448,78 +449,82 @@
         <div class="container-fluid py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-                    <h1 class="display-5">Services</h1>
+                    <h1 class="display-5 "><span class="Service-heading">Services</span></h1>
                     <hr class="w-25 mx-auto text-primary" style="opacity: 1;">
                 </div>
                 <div class="row gy-4 gx-3">
-                    <h1 class="text-center display-5">Preparation</h1>
-                    <div class="col-lg-4 col-md-6 pt-5">
-                        <div
-                            class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
-                            <div class="service-icon p-3">
-                                <div><i class="fa fa-graduation-cap"></i></div>
+                 <h1 class="text-center display-5">--Preparation--</h1>
+
+                    <!-- test -->
+                    <div class="contain container">
+                        <div id="owl-carousel" class="owl-carousel owl-theme ">
+
+                            <div
+                                class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                                <div class="service-icon p-3">
+                                    <div><i class="fa fa-graduation-cap"></i></div>
+                                </div>
+                                <h3 class="mt-5">IELTS</h3>
                             </div>
-                            <h3 class="mt-5"> IELTS </h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 pt-5">
-                        <div
-                            class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
-                            <div class="service-icon p-3">
-                                <div><i class="fa fa-graduation-cap"></i></div>
+
+                            <div
+                                class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                                <div class="service-icon p-3">
+                                    <div><i class="fa fa-graduation-cap"></i></div>
+                                </div>
+                                <h3 class="mt-5">PTE</h3>
                             </div>
-                            <h3 class="mt-5">TOEFL</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 pt-5">
-                        <div
-                            class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
-                            <div class="service-icon p-3">
-                                <div><i class="fa fa-graduation-cap"></i></div>
+
+
+                            <div
+                                class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                                <div class="service-icon p-3">
+                                    <div><i class="fa fa-graduation-cap"></i></div>
+                                </div>
+                                <h3 class="mt-5">ACT</h3>
                             </div>
-                            <h3 class="mt-5"> PTE </h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 pt-5">
-                        <div
-                            class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
-                            <div class="service-icon p-3">
-                                <div><i class="fa fa-graduation-cap"></i></div>
+
+
+                            <div
+                                class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                                <div class="service-icon p-3">
+                                    <div><i class="fa fa-graduation-cap"></i></div>
+                                </div>
+                                <h3 class="mt-5">SAT</h3>
                             </div>
-                            <h3 class="mt-5">GMAT</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 pt-5">
-                        <div
-                            class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
-                            <div class="service-icon p-3">
-                                <div><i class="fa fa-graduation-cap"></i></div>
+
+                            <div
+                                class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                                <div class="service-icon p-3">
+                                    <div><i class="fa fa-graduation-cap"></i></div>
+                                </div>
+                                <h3 class="mt-5">GRAT</h3>
                             </div>
-                            <h3 class="mt-5">GRE</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 pt-5">
-                        <div
-                            class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
-                            <div class="service-icon p-3">
-                                <div><i class="fa fa-graduation-cap"></i></div>
+
+
+                            <div
+                                class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                                <div class="service-icon p-3">
+                                    <div><i class="fa fa-graduation-cap"></i></div>
+                                </div>
+                                <h3 class="mt-5">GRE</h3>
                             </div>
-                            <h3 class="mt-5">SAT</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 pt-5">
-                        <div
-                            class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
-                            <div class="service-icon p-3">
-                                <div><i class="fa fa-graduation-cap"></i></div>
+
+                            <div
+                                class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                                <div class="service-icon p-3">
+                                    <div><i class="fa fa-graduation-cap"></i></div>
+                                </div>
+                                <h3 class="mt-5">TOEFT</h3>
                             </div>
-                            <h3 class="mt-5">ACT</h3>
                         </div>
                     </div>
                 </div>
-                <div class="row gy-4 gx-3">
-                    <h1 class="text-center display-5 p-5">Experts In</h1>
-                    <div class="col-lg-4 col-md-6 pt-5">
+               <h1 class="text-center display-5 p-5">--Experts In--</h1>
+                
+                <div class="contain container">
+                    <div id="owl-carousel1" class="owl-carousel owl-theme ">
+
                         <div
                             class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                             <div class="service-icon p-3">
@@ -527,17 +532,16 @@
                             </div>
                             <h3 class="mt-5">Application</h3>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 pt-5">
+
                         <div
                             class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                             <div class="service-icon p-3">
                                 <div><i class="fa fa-graduation-cap"></i></div>
                             </div>
-                            <h3 class="mt-5">Visa Process</h3>
+                            <h3 class="mt-5">Viva-Process</h3>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 pt-5">
+
+
                         <div
                             class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                             <div class="service-icon p-3">
@@ -545,8 +549,8 @@
                             </div>
                             <h3 class="mt-5">Education</h3>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 pt-5">
+
+
                         <div
                             class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                             <div class="service-icon p-3">
@@ -554,8 +558,7 @@
                             </div>
                             <h3 class="mt-5">Loan</h3>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 pt-5">
+
                         <div
                             class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                             <div class="service-icon p-3">
@@ -563,90 +566,53 @@
                             </div>
                             <h3 class="mt-5">SOP</h3>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 pt-5">
+
+
                         <div
                             class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                             <div class="service-icon p-3">
                                 <div><i class="fa fa-graduation-cap"></i></div>
                             </div>
-                            <h3 class="mt-5"> Profiling</h3>
+                            <h3 class="mt-5">Profiling</h3>
                         </div>
                     </div>
                 </div>
             </div>
 
-        </div>
-        <!-- Services End -->
-
-        <!-- Testimonial Start -->
-        <div class="container-fluid bg-primary bg-testimonial py-5" style="margin: 90px 0;">
-            <div class="container py-5">
-                <div class="row g-0 justify-content-end">
-                    <div class="col-lg-6">
-                        <h1 class="display-5 mb-4">Testimonials</h1>
-                        <div class="owl-carousel testimonial-carousel">
-                            <div class="testimonial-item">
-                                <p class="fs-4 fw-normal"><i class="fa fa-quote-left text-secondary me-3"></i>Dolores
-                                    sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At
-                                    lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat dolor rebum sit
-                                    ipsum.</p>
-                                <div class="d-flex align-items-center">
-                                    <img class="img-fluid p-1 bg-secondary" src="" alt="">
-                                    <div class="ps-3">
-                                        <h3>Client Name</h3>
-                                        <span class="text-uppercase">Profession</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-item">
-                                <p class="fs-4 fw-normal"><i class="fa fa-quote-left text-secondary me-3"></i>Dolores
-                                    sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At
-                                    lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat dolor rebum sit
-                                    ipsum.</p>
-                                <div class="d-flex align-items-center">
-                                    <img class="img-fluid p-1 bg-secondary" src="" alt="">
-                                    <div class="ps-3">
-                                        <h3>Client Name</h3>
-                                        <span class="text-uppercase">Profession</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-        <!-- Testimonial End -->
-     
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark bg-footer text-light py-5">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-lg-4 col-md-6">
-                        <h4 class="text-primary">Get In Touch</h4>
-                        <hr class="w-25 text-secondary mb-4" style="opacity: 1;">
-                        <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i><a class="text-light"
+
+    </div>
+    <!-- Services End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark bg-footer text-light ">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-primary">Get In Touch</h4>
+                    <hr class="w-25 text-secondary mb-4" style="opacity: 1;">
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i><a class="text-light"
                             href="http://maps.app.goo.gl/ihsKU9ARTYJ6JKVv7">HEAD OFFICE:-302,Balaji
                             Corporate House,Above ICICI Bank,Zanzeerwala Square,New Palasia,Indore M.P</a>
-                        </p>
-                        <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@example.com</p>
-                        <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>0731-4904343</p>
-                        <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+91 9770501606</p>
-                        
+                    </p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@example.com</p>
+                    <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>0731-4904343</p>
+                    <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+91 9770501606</p>
+
                 </div>
-                    <div class="col-lg-4 col-md-6">
-                        <h4 class="text-primary">Get In Touch</h4>
-                        <hr class="w-25 text-secondary mb-4" style="opacity: 1;">
-                        <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i><a class="text-light"
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-primary">Get In Touch</h4>
+                    <hr class="w-25 text-secondary mb-4" style="opacity: 1;">
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i><a class="text-light"
                             href="http://maps.google.com/?cid=17978884018948235598&entry=gps">BRANCH OFFICE:- F-2
                             R-18,Aastha Square,Yudhister Marg, C-scheme Jaipur,Rajasthan.</a>
-                        </p>
-                        <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i></p>
-                        <p><i class="fa fa-phone-alt text-primary me-3"></i>Contact Person:-Reema Jain</p>
-                        <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+91 7737080773</p>
-                    </div>
-                    <!-- <div class="col-lg-4 col-md-6">
+                    </p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i></p>
+                    <p><i class="fa fa-phone-alt text-primary me-3"></i>Contact Person:-Reema Jain</p>
+                    <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+91 7737080773</p>
+                </div>
+                <!-- <div class="col-lg-4 col-md-6">
                         <h4 class="text-primary">Our Services</h4>
                         <hr class="w-25 text-secondary mb-4" style="opacity: 1;">
                         <div class="d-flex flex-column justify-content-start">
@@ -660,92 +626,118 @@
                             <a class="text-light" href="#"><i class="fa fa-angle-right me-2"></i>Window Washing</a>
                         </div>
                     </div> -->
-                    <div class="col-lg-4 col-md-6">
-                        <h6 class="text-primary mt-4 mb-3">Follow Us</h6>
-                        <div class="d-flex">
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
-                                    class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i
-                                    class="fab fa-instagram"></i></a>
-                        </div>
+                <div class="col-lg-4 col-md-6">
+                    <h6 class="text-primary mt-4 mb-3">Follow Us</h6>
+                    <div class="d-flex">
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i
+                                class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-primary text-dark py-4">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col text-center">
-                        <p class="mb-md-0">Copyright &copy; <span id="year"> </span> <a class="text-dark fw-bold"
-                                href="globalmentor.in">globalmentor.in</a> | Developed by <a class="text-dark fw-bold"
-                                href="aurasoftdigitech.com">Aurasoftdigitech.com</a> </p>
-                    </div>
+    </div>
+    <div class="container-fluid bg-primary text-dark py-4">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col text-center">
+                    <p class="mb-md-0">Copyright &copy; <span id="year"></span> <a class="text-dark fw-bold"
+                            href="globalmentor.in">globalmentor.in</a> | Developed by <a class="text-dark fw-bold"
+                            href="aurasoftdigitech.com">Aurasoftdigitech.com</a> </p>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
+    </div>
+    <!-- Footer End -->
 
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-secondary btn-lg-square rounded-circle back-to-top"><i
-                class="bi bi-arrow-up"></i></a>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-secondary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
 
 
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <!-- owl carousel -->
-        <script>
-         function calldata(){
-var name=document.getElementById("username").value;
-var contact=document.getElementById("contactno").value;
-var email=document.getElementById("email").value;
-var country=document.getElementById("country").value;
-// var countryname=country.options[country.selectedIndex].text;
-// console.log(countryname);
-var course=document.getElementById("course").value;
-var city=document.getElementById("city").value;
-// var currentyear=getElementById("year");
-// const d=new Date();
-// currentyear.innerHTML=""+d.getFullYear();
-// console.log(name);
-  }
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- owl carousel -->
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+        function calldata() {
+            var name = document.getElementById("username").value;
+            var contact = document.getElementById("contactno").value;
+            var email = document.getElementById("email").value;
+            var country = document.getElementById("country").value;
+            // var countryname=country.options[country.selectedIndex].text;
+            // console.log(countryname);
+            var course = document.getElementById("course").value;
+            var city = document.getElementById("city").value;
+            // const d=new Date();
+            // console.log(name);
+        }
 
-        </script>
-        <script>$(function () {
-                // Owl Carousel
-                var owl = $(".owl-carousel");
-                owl.owlCarousel({
+    </script>
+    <script>$(function () {
+            // Owl Carousel
+            var owl = $(".owl-carousel");
+            owl.owlCarousel({
 
-                    autoplay: true,
-                    rewind: false,
-                    loop: true,
-                    margin: 20,
+                autoplay: true,
+                rewind: false,
+                loop: true,
+                margin: 20,
+                
+                responsiveClass: true,
+                autoHeight: true,
+                autoplayTimeout: 5000,
+                smartSpeed: 800,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
 
-                    responsiveClass: true,
-                    autoHeight: true,
-                    autoplayTimeout: 5000,
-                    smartSpeed: 800,
-                    nav: true,
-                    responsive: {
-                        0: {
-                            items: 1
-                        },
-
-                        1024: {
-                            items: 2
-                        }
+                    1024: {
+                        items: 2
                     }
-                });
+                }
             });
+        });
         </script>
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+    <script>  $('#owl-carousel').owlCarousel({
+        autoplay: true,
+        rewind: false,
+        loop: true,
+        autoplayTimeout: 5000,
+        smartSpeed: 800,
+        loop: true,
+        margin: 30,
+        dots: true,
+        nav: true,
+        items: 4,
+    })
+    </script>
+    <script>  $('#owl-carousel1').owlCarousel({
+        autoplay: true,
+        rewind: false,
+        loop: true,
+        autoplayTimeout: 5000,
+        smartSpeed: 800,
+        loop: true,
+        margin: 30,
+        dots: true,
+        nav: true,
+        items: 4,
+    })
+    </script>
+
+<!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
