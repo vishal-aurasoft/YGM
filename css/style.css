@@ -341,7 +341,6 @@ width: 80px;
   .contain {
     align-items: center;
     width: 100%;
-    padding: 50px;
   }
   .contain h3
   {
@@ -359,3 +358,15 @@ width: 80px;
 {
     margin-bottom: 30px;
 }
+.owl-theme .owl-dots
+{
+    display: none;
+}
+
+.archivers-section .owl-carousel .owl-stage
+{
+    margin-bottom:0px;
+}
+
+
+
