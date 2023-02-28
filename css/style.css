@@ -23,6 +23,17 @@ body {
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
+    
+}
+.nav-link
+{
+    color: #000 !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-link:hover
+{
+    color: #FFE468 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -149,6 +160,10 @@ body {
     display: none;
 }
 
+.country-section h2:hover span,
+.Service-section h6:hover span{
+    border-bottom: 3px dashed var(--primary);
+}
 .country-section h2,
 .Service-section h6 {
     text-align: center;
@@ -312,8 +327,16 @@ body {
     margin-bottom: 0px;
 }
 
+.Service-section img
+{
+    height: 50%;
+    width: 75%;
+    margin: 0px;
+}
+
 .Service-section .nav {
-    padding-left: 29%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .Service-section .nav .nav-item button {
@@ -339,7 +362,10 @@ body {
     border-bottom: 4px solid var(--primary) !important;
     border-radius: 0%;
 }
-
+.fa-heart
+{
+    color: red !important;
+}
 @media (max-width: 991.98px) {
     .bg-quote {
         background-size: cover;
@@ -361,6 +387,18 @@ body {
         font-size: 15px;
     }
 
+    .archivers-section .contain img
+    {
+        height: 300px;
+
+    }
+
+    .logo
+    {
+        height: 80px;
+        width: 180px;
+    }
+
     .archivers-section h3 {
         font-size: 20px;
     }
@@ -375,8 +413,8 @@ body {
         padding: 10px;
     }
 
-    .Service-section .nav {
-        padding: 1%;
+    .Service-section .nav button {
+        font-size: 13px !important;
     }
 
 }
