@@ -1,7 +1,6 @@
-
 :root {
     --primary: #FFE468;
-    --secondary: #8CC641;
+    --secondary: #FFE468;
     --light: #F2F2F2;
     --black: #111111;
     --dark: rgb(40, 39, 46);
@@ -34,7 +33,7 @@ body {
 
 .logo {
     height: 80px;
-    width: 80px;
+    width: 250px;
 }
 
 .head-section {
@@ -97,7 +96,7 @@ body {
     margin: 70px 0;
     text-align: center;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 
 .form input[type="text"],
@@ -120,7 +119,7 @@ body {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     outline: none;
-    background-color: #2196F3;
+    background-color: #ecbd46;
     width: 100%;
     border: 0;
     padding: 20px;
@@ -134,7 +133,8 @@ body {
 .form button:hover,
 .form button:active,
 .form button:focus {
-    background-color: #f5446a;
+    background-color: var(--primary);
+    box-shadow: 0px 3px 10px #d9d1d1;
 }
 
 .form h2 {
@@ -176,14 +176,14 @@ body {
 }
 
 .country-section .content-body {
-    background-color: rgb(247, 235, 235);
+    background-color: rgb(244 242 224);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     padding: 50px;
 }
 
 .country-section .item {
-    box-shadow: 2px 2px 2px 2px #000;
+    box-shadow: 0px 3px 10px #d9d1d1;
     padding: 0%;
     border-radius: 25px;
     margin: 1px;
@@ -283,6 +283,7 @@ body {
     background: url(../img/quote.jpg) top right no-repeat;
     background-size: contain;
 }
+
 /* servives */
 .contain {
     align-items: center;
@@ -333,9 +334,9 @@ body {
 }
 
 .nav-pills .nav-link.active {
-    color: #000;
+    color: var(--primary) !important;
     background-color: transparent;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid var(--primary) !important;
     border-radius: 0%;
 }
 
@@ -397,4 +398,31 @@ body {
         width: 100%;
         left: 0;
     }
+}
+
+#home {
+    padding: 30px 0;
+}
+
+.text-primary1 {
+    color: var(--primary) !important;
+}
+.navbar{
+    background-color: #fff !important;
+}
+.team-text p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin-bottom: 1rem;
+    line-height: 20px;
+}
+.heading_45{
+    font-size: 35px;
+    color: var(--primary) !important;
+}
+.heading_35{
+    font-size: 25px;
+    color: var(--primary) !important;
 }
