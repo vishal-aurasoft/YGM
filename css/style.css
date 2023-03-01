@@ -402,14 +402,6 @@ font-style: italic;
 
 }
 
-.Service-section .nav .nav-item button:hover {
-    color: var(--primary);
-    font-size: 40px;
-    font-weight: 700;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-
 .nav-pills .nav-link.active {
     color: var(--primary) !important;
     background-color: transparent;
