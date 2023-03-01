@@ -28,7 +28,6 @@ body {
 .nav-link
 {
     color: #000 !important;
-    font-family: "Roboto Condensed",sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
@@ -161,19 +160,72 @@ body {
     display: none;
 }
 
-.country-section h2:hover span,
-.Service-section h6:hover span{
+.country-section h2 span,
+.Service-section h6 span,
+.Scollarship-section h5 span,
+.Scollarship-section h3 span{
     border-bottom: 3px solid var(--primary);
 }
 .country-section h2,
-.Service-section h6 {
+.Service-section h6,
+.Scollarship-section h5,
+.Scollarship-section h3 {
     text-align: center;
     font-size: 40px;
     padding: 20px;
     font: sans-serif;
     font-weight: 600;
 }
+.Scollarship-section
+{
+    padding: 30px;
+}
+.Scollarship-section h6
+{
+    padding: 20PX 0PX;
+    text-align:left;
+    font-size: 28px;
+    text-shadow: #ecbd46 2px 2px;
+}
 
+.Scollarship-section span
+{
+    font: sans-serif;
+    text-align:left;
+    padding: 10px;
+    color: #000;
+
+}
+.Scollarship-section .nav button
+{
+    text-align: left;
+}
+.Scollarship-section .box-section
+{
+    /* padding: 20px !important; */
+    box-shadow: #afaeae 0px 3px 10px;
+
+}
+.Scollarship-section ul
+{
+    padding: 10px;
+list-style:circle;
+font-style: italic;
+}
+.Scollarship-section .nav
+{
+    padding: 20px;
+ background-color:rgb(165, 165, 137);
+    border-right: #000 2px solid;
+}
+.Scollarship-section .tab-content
+{
+    padding-top:10px;
+}
+.Scollarship-section  li
+{
+    color: #000;
+}
 .country-section img {
     height: 200px !important;
     width: 200px !important;
@@ -352,7 +404,7 @@ body {
 
 .Service-section .nav .nav-item button:hover {
     color: var(--primary);
-    font-size: 22px;
+    font-size: 40px;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
 
@@ -466,3 +518,5 @@ body {
     font-size: 25px;
     color: var(--primary) !important;
 }
+
+ 
