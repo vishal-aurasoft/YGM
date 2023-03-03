@@ -10,7 +10,6 @@ body {
     background-color: aliceblue(--light);
 }
 
-
 .navbar-dark .navbar-nav .nav-link {
     position: relative;
     margin-left: 30px;
@@ -23,16 +22,16 @@ body {
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
-    
+
 }
-.nav-link
-{
+
+.nav-link {
     color: #000 !important;
     font-size: 20px;
     font-weight: 600;
 }
-.nav-link:hover
-{
+
+.nav-link:hover {
     color: #FFE468 !important;
 }
 
@@ -164,9 +163,10 @@ body {
 .country-section h2 span,
 .Service-section h6 span,
 .Scollarship-section h5 span,
-.Scollarship-section h3 span{
+.Scollarship-section h3 span {
     border-bottom: 3px solid var(--primary);
 }
+
 .country-section h2,
 .Service-section h6,
 .Scollarship-section h5,
@@ -177,56 +177,56 @@ body {
     font: sans-serif;
     font-weight: 600;
 }
-.Scollarship-section
-{
+
+.Scollarship-section {
     padding: 30px;
 }
-.Scollarship-section h6
-{
+
+.Scollarship-section h6 {
     padding: 20PX 0PX;
-    text-align:left;
+    text-align: left;
     font-size: 28px;
     text-shadow: #ecbd46 2px 2px;
 }
 
-.Scollarship-section span
-{
+.Scollarship-section span {
     font: sans-serif;
-    text-align:left;
-    padding: 10px;
+    text-align: left;
+    /* padding: 10px; */
     color: #000;
 
 }
-.Scollarship-section .nav button
-{
+
+.Scollarship-section .nav button {
     text-align: left;
 }
-.Scollarship-section .box-section
-{
+
+.Scollarship-section .box-section {
     /* padding: 20px !important; */
     box-shadow: #afaeae 0px 3px 10px;
 
 }
-.Scollarship-section ul
-{
+
+.Scollarship-section ul {
     padding: 10px;
-list-style:circle;
-font-style: italic;
+    list-style: circle;
+    font-style: italic;
 }
-.Scollarship-section .nav
-{
+
+.Scollarship-section .nav {
     padding: 20px;
- background-color:rgb(165, 165, 137);
+    background-color: rgb(165, 165, 137);
     border-right: #000 2px solid;
 }
-.Scollarship-section .tab-content
-{
-    padding-top:10px;
+
+.Scollarship-section .tab-content {
+    padding-top: 10px;
 }
-.Scollarship-section  li
-{
+
+.Scollarship-section li {
     color: #000;
 }
+
 .country-section img {
     height: 200px !important;
     width: 200px !important;
@@ -255,7 +255,7 @@ font-style: italic;
     box-shadow: 0px 3px 10px #d9d1d1;
     padding: 0%;
     border-radius: 25px;
-    margin: 1px;
+    /* margin: 1px; */
     width: 90%;
     height: 90%;
     margin-bottom: 70px;
@@ -381,18 +381,17 @@ font-style: italic;
     margin-bottom: 0px;
 }
 
-.Service-section img
-{
+.Service-section img {
     height: 50%;
     width: 75%;
     margin: 0px;
 }
 
 
-.navbar-toggler:focus
-{
-    box-shadow:none;
+.navbar-toggler:focus {
+    box-shadow: none;
 }
+
 .Service-section .nav {
     display: flex;
     justify-content: space-evenly;
@@ -413,10 +412,11 @@ font-style: italic;
     border-bottom: 4px solid var(--primary) !important;
     border-radius: 0%;
 }
-.fa-heart
-{
+
+.fa-heart {
     color: red !important;
 }
+
 @media (max-width: 991.98px) {
     .bg-quote {
         background-size: cover;
@@ -438,16 +438,25 @@ font-style: italic;
         font-size: 15px;
     }
 
-    .archivers-section .contain img
-    {
+    .archivers-section .contain img {
         height: 300px;
 
     }
 
-    .logo
-    {
+    .Scollarship-section h6 {
+        /* padding: 20PX 0PX; */
+        text-align: left;
+        font-size: 18px;
+        text-shadow: #ecbd46 2px 2px;
+    }
+
+    .logo {
         height: 80px;
-        width: 180px;
+        width: 225px;
+    }
+
+    .px-4 {
+        padding-left: 0px !important;
     }
 
     .archivers-section h3 {
@@ -457,6 +466,24 @@ font-style: italic;
     .country-section h2,
     .Service-section h6 {
         font-size: 30px;
+
+    }
+
+    .Scollarship-section .nav {
+        padding: 0px !important;
+    }
+
+    .nav-link {
+        font-size: 12px !important;
+    }
+
+    .tab-content ul li {
+        font-size: 10px !important;
+    }
+
+    .Scollarship-section h5 span,
+    .Scollarship-section h3 span {
+        font-size: 14px;
     }
 
     .Service-section .nav .nav-item button {
@@ -496,9 +523,11 @@ font-style: italic;
 .text-primary1 {
     color: var(--primary) !important;
 }
-.navbar{
+
+.navbar {
     background-color: #fff !important;
 }
+
 .team-text p {
     margin-top: 0;
     margin-bottom: 5px;
@@ -507,13 +536,13 @@ font-style: italic;
     margin-bottom: 1rem;
     line-height: 20px;
 }
-.heading_45{
+
+.heading_45 {
     font-size: 35px;
     color: var(--primary) !important;
 }
-.heading_35{
+
+.heading_35 {
     font-size: 25px;
     color: var(--primary) !important;
 }
-
- 

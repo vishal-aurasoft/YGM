@@ -534,25 +534,25 @@
 
                     <div class="form" data-aos="fade-left" data-aos-duration="2500">
                         <h2>ENQUIRE NOW!</h2>
-                        <form action="">
+                        <form onsubmit="calldata()">
                             <input type="text" placeholder="Username" id="username">
                             <input type="number" placeholder="number" id="contactno">
                             <input type="email" placeholder="email" id="email">
                             <input type="text" placeholder="course" id="course">
-                            <select name="counrty-name" id="county">
-                                <option value="India">USA</option>
-                                <option value="">Canada</option>
-                                <option value="">UK</option>
-                                <option value="">Ireland</option>
-                                <option value="">Australia</option>
-                                <option value="">New Zealand</option>
-                                <option value="">Dubai</option>
-                                <option value="">Germany</option>
-                                <option value="">other</option>
+                            <select name="country-name" id="country">
+                                <option value="USA">USA</option>
+                                <option value="Canada">Canada</option>
+                                <option value="UK">UK</option>
+                                <option value="Ireland">Ireland</option>
+                                <option value="Australia">Australia</option>
+                                <option value="New Zealand">New Zealand</option>
+                                <option value="Dubai">Dubai</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Other">other</option>
                             </select>
                             <input type="text" placeholder="city" id="city">
 
-                            <button type="submit" onclick="return calldata()">Submit</button>
+                            <button type="submit" >Submit</button>
                         </form>
                     </div>
 
@@ -1085,6 +1085,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- owl carousel -->
+
+    <script src="https://smtpjs.com/v3/smtp.js"> </script>
     <script>
         document.getElementById("year").innerHTML = new Date().getFullYear();
         function calldata() {
@@ -1092,10 +1094,21 @@
             var contact = document.getElementById("contactno").value;
             var email = document.getElementById("email").value;
             var country = document.getElementById("country").value;
-            // var countryname=country.options[country.selectedIndex].text;
-            // console.log(countryname);
             var course = document.getElementById("course").value;
             var city = document.getElementById("city").value;
+console.log(country);
+
+
+            Email.send({
+                SecureToken: "c9c9d837-0b35-4506-ae60-4d1c8cfbe41b",
+                To: 'vishal.aurasoft@gmail.com',
+                From: "vishal.aurasoft@gmail.com",
+                Subject: "mail from contact form",
+                Body: "Name :- " + name + "<br/>Contact :- " + contact + "<br/>Email :- " + email + "<br/>Country :- " + country + "<br/>Course :- " + course + "<br/>City :- " + city
+            }).then(
+                message =>alert(message)
+            );
+
         }
 
         $(function () {
