@@ -534,7 +534,7 @@
 
                     <div class="form" data-aos="fade-left" data-aos-duration="2500">
                         <h2>ENQUIRE NOW!</h2>
-                        <form onsubmit="calldata()">
+                        <form >
                             <input type="text" placeholder="Username" id="username">
                             <input type="number" placeholder="number" id="contactno">
                             <input type="email" placeholder="email" id="email">
@@ -552,7 +552,7 @@
                             </select>
                             <input type="text" placeholder="city" id="city">
 
-                            <button type="submit" >Submit</button>
+                            <button type="button" onclick="calldata()">Submit</button>
                         </form>
                     </div>
 
@@ -1100,9 +1100,9 @@ console.log(country);
 
 
             Email.send({
-                SecureToken: "c9c9d837-0b35-4506-ae60-4d1c8cfbe41b",
-                To: 'vishal.aurasoft@gmail.com',
-                From: "vishal.aurasoft@gmail.com",
+                SecureToken:"321d13fd-4104-4be9-a0ad-1929fd9c577f",
+                To: 'websiteygm@gmail.com',
+                From: "websiteygm@gmail.com",
                 Subject: "mail from contact form",
                 Body: "Name :- " + name + "<br/>Contact :- " + contact + "<br/>Email :- " + email + "<br/>Country :- " + country + "<br/>Course :- " + course + "<br/>City :- " + city
             }).then(
