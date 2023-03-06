@@ -56,9 +56,9 @@
             <div class="navbar-nav ms-auto py-0 pe-4 border-5 border-primary">
                 <a href="#home" class="nav-item nav-link active">Home</a>
                 <a href="#Service-section" class="nav-item nav-link">Service</a>
-                <a href="#country" class="nav-item nav-link">Countries</a>
-                <a href="terms.html" class="nav-item nav-link">Terms</a>
-                <a href="privacypolicy.html" class="nav-item nav-link">Privacy Policy</a>
+                <a href="#country-sec" class="nav-item nav-link">Countries</a>
+                <a href="Terms.html" class="nav-item nav-link">Terms</a>
+                <a href="PrivacyPolicy.html" class="nav-item nav-link">Privacy Policy</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
         </div>
@@ -534,7 +534,7 @@
 
                     <div class="form" data-aos="fade-left" data-aos-duration="2500">
                         <h2>ENQUIRE NOW!</h2>
-                        <form >
+                        <form>
                             <input type="text" placeholder="Username" id="username">
                             <input type="number" placeholder="number" id="contactno">
                             <input type="email" placeholder="email" id="email">
@@ -563,8 +563,6 @@
         </div>
     </div>
     <!-- Hero End -->
-
-
     <!-- Scollarship section start-->
     <section class="Scollarship-section">
         <div class="container">
@@ -740,9 +738,7 @@
 
     </section>
     <!-- Scollarship section end-->
-
-
-    <!-- Services Start -->
+   <!-- Services Start -->
     <div class="container-fluid Service-section py-5" id="Service-section">
         <div class="container py-5">
             <h6 data-aos="fade-down" data-aos-duration="2000"><span>-- OUR SERVICES --</span></h6>
@@ -899,12 +895,8 @@
         </div>
 
     </div>
-
     <!-- Services End -->
-
-
-
-    <section class="country-section " id="country">
+    <section class="country-section " id="country-sec">
         <div class=" heading-design container" data-aos="fade-up" data-aos-duration="1000">
 
             <h2 class="p-5" data-aos="fade-down" data-aos-duration="2000"><span>--COUNTRIES--</span></h2>
@@ -1045,8 +1037,8 @@
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-primary1">Follow Us</h4>
                     <div class="d-flex">
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
-                                class="fab fa-twitter"></i></a>
+                        <!-- <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
+                                class="fab fa-twitter"></i></a> -->
                         <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2"
                             href="https://www.facebook.com/yourglobalmentors"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2"
@@ -1087,104 +1079,7 @@
     <!-- owl carousel -->
 
     <script src="https://smtpjs.com/v3/smtp.js"> </script>
-    <script>
-        document.getElementById("year").innerHTML = new Date().getFullYear();
-        function calldata() {
-            var name = document.getElementById("username").value;
-            var contact = document.getElementById("contactno").value;
-            var email = document.getElementById("email").value;
-            var country = document.getElementById("country").value;
-            var course = document.getElementById("course").value;
-            var city = document.getElementById("city").value;
-console.log(country);
-
-
-            Email.send({
-                SecureToken:"321d13fd-4104-4be9-a0ad-1929fd9c577f",
-                To: 'websiteygm@gmail.com',
-                From: "websiteygm@gmail.com",
-                Subject: "mail from contact form",
-                Body: "Name :- " + name + "<br/>Contact :- " + contact + "<br/>Email :- " + email + "<br/>Country :- " + country + "<br/>Course :- " + course + "<br/>City :- " + city
-            }).then(
-                message =>alert(message)
-            );
-
-        }
-
-        $(function () {
-            // Owl Carousel
-            var owl = $(".owl-carousel");
-            owl.owlCarousel({
-
-                autoplay: true,
-                rewind: false,
-                loop: true,
-                margin: 20,
-
-                responsiveClass: true,
-                autoHeight: true,
-                autoplayTimeout: 5000,
-                smartSpeed: 800,
-                nav: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-
-                    1024: {
-                        items: 2
-                    }
-                }
-            });
-        });
-        $('.owl-carousel-service').owlCarousel({
-            autoplay: true,
-            rewind: false,
-            loop: true,
-            autoplayTimeout: 5000,
-            smartSpeed: 800,
-            loop: true,
-            margin: 30,
-            dots: true,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-
-                1024: {
-                    items: 4
-                }
-            }
-        })
-
-        $('.owl-carousel-achivers').owlCarousel({
-            autoplay: true,
-            rewind: false,
-            loop: true,
-            autoplayTimeout: 5000,
-            smartSpeed: 800,
-            loop: true,
-            dots: true,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                426: {
-                    items: 3
-                }
-                ,
-                1024: {
-                    items: 4
-                }
-            }
-        })
-
-        AOS.init();
-
-    </script>
-
+  
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
