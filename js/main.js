@@ -36,7 +36,7 @@ function calldata() {
     
     Email.send({
         SecureToken: "321d13fd-4104-4be9-a0ad-1929fd9c577f",
-        To: 'websiteygm@gmail.com',
+        To: 'vishal.aurasoft@gmail.com',
         From: "websiteygm@gmail.com",
         Subject: "mail from contact form",
         Body: "Name :- " + name + "<br/>Contact :- " + contact + "<br/>Email :- " + email + "<br/>Country :- " + country + "<br/>Course :- " + course + "<br/>City :- " + city
